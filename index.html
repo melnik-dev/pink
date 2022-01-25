@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Pink</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<meta name="format-detection" content="telephone=no">
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="page-header">
+		<nav class="main-nav main-nav--closed main-nav--nojs">
+			<div class="main-nav__wrapper">
+			<a href="#" class="main-nav__logo-link">
+				<picture>
+					<source media="(min-width: 1200px)" srcset="img/logo-desktop.svg">
+					<source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+					<img src="img/logo-mobile.svg" width="75" height="22" alt="лого pink">
+				</picture>
+			</a>
+			<button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+			
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item site-list__item--active"><a href="index.html">Главная</a></li>
+					<li class="site-list__item"><a href="photo.html">Фотографии</a></li>
+					<li class="site-list__item"><a href="form.html">Конкурс</a></li>
+					<li class="site-list__item"><a href="#">HTML Academy</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section class="intro">
+			<h1 class="visually-hidden">Мобильное Приложение Пинк</h1>
+				<div class="intro__wrapper">
+				<p class="intro__title">Взгляните<br> на жизнь<br> иначе!</p>
+				<a href="#" class="intro__download-link download-link">Скачать приложение</a>
+				<div class="intro__icon icon-platform">
+					<a href="#" class="icon-platform__item"><img src="img/apple-logo.svg" alt="скачать"></a>
+					<a href="#" class="icon-platform__item"><img src="img/android-logo.svg" alt="скачать"></a>
+					<a href="#" class="icon-platform__item"><img src="img/microsoft-logo.svg" alt="скачать"></a>
+				</div>
+				<p class="intro__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+				</div>
+		</section>
+	</header>
+	<main class="page-main">
+		<section class="information">
+			<div class="information__wrapper">
+				<h2 class="visually-hidden">О приложении</h2>
+				<p class="information__title">Устали от серости мегаполиса?</p>
+				<p class="information__subtitle">Нам есть, что вам<br> предложить!</p>
+				<div class="slogan-wrapper">
+				<div class="information__list slogan-list">
+					<div class="slogan-list__item">
+						<img class="slogan-list__img" width="186" src="img/slogan-1.png" alt="слоган">
+						<h3 class="slogan-list__titel">Поднимает настроение</h3>
+						<p class="slogan-list__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+					</div>
+					<div class="slogan-list__item">
+						<img class="slogan-list__img" width="186" src="img/slogan-2.png" alt="слоган">
+						<h3 class="slogan-list__titel">Меняет мир вокруг</h3>
+						<p class="slogan-list__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+					</div>
+					<div class="slogan-list__item">
+						<img class="slogan-list__img" width="186" src="img/slogan-3.png" alt="слоган">
+						<h3 class="slogan-list__titel">Заводит новых друзей</h3>
+						<p class="slogan-list__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+					</div>
+				</div>
+				<picture>
+					<source media="(min-width: 768px)" srcset="img/inform-t.png">
+					<img class="slogan-img" src="img/inform-m.png" alt="телефон">
+				</picture>
+				</div>
+			</div>
+		</section>
+		<section class="diagram">
+			<div class="diagram__wrapper">
+				<img src="img/teme-t.png" alt="время">
+				<div class="diagram__content">
+					<h2 class="diagram__title">Эффект на 24 часа!</h2>
+					<p class="diagram__description">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+					<a href="#" class="diagram__link">Узнать больше об исследовании</a>
+				</div>
+			</div>
+		</section>
+		<section class="reviews">
+			<div class="reviews__wrapper block-slider">
+	        <h2 class="visually-hidden">Отзывы</h2>
+	        <div class="slider">
+	        	<input type="radio" id="btn-1" name="toggle" checked>
+	            <input type="radio" id="btn-2" name="toggle">
+	            <input type="radio" id="btn-3" name="toggle">
+	 
+	            <div class="slider-controls">
+	              <label for="btn-1"></label>
+	              <label for="btn-2"></label>
+	              <label for="btn-3"></label>
+	            </div>
+
+	            <div class="slider-inner">
+	              <div class="reviews__list slider-slides">
+	                <blockquote  class="reviews__item">
+	                	<div class="item-item">
+	                        <cite class="reviews__author-name">Николай Петров</cite>
+	                        <span class="reviews__author-prof">25 лет, водитель трамвая</span>
+	                        <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+	                    </div>
+	                </blockquote>
+	                <blockquote  class="reviews__item">
+	                	<div class="item-item">
+	                        <cite class="reviews__author-name">Николай Петров</cite>
+	                        <span class="reviews__author-prof">25 лет, водитель трамвая</span>
+	                        <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+	                    </div>
+	                </blockquote>
+	                <blockquote  class="reviews__item">
+	                	<div class="item-item">
+	                        <cite class="reviews__author-name">Николай Петров</cite>
+	                        <span class="reviews__author-prof">25 лет, водитель трамвая</span>
+	                        <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+	                    </div>
+	                </blockquote>
+	              </div>
+	            </div>
+	          </div>
+	    	</div>	
+		</section>
+		<button class="reviews__prev" type="button">Предыдущий отзыв</button>
+		<button class="reviews__next" type="button">Следующий отзыв</button>
+		<!-- <section class="price">
+			<div class="price__wrapper">
+			<div class="price__viewport">
+				<table class="price__list">
+					<tr>
+						<th class="price__title">База<br><span  class="price__title--narrow">1,99 USD</span></th>
+						<th class="price__title price__title--hit">Стандарт<br><span  class="price__title--narrow">3,99 USD</span></th>
+						<th class="price__title">АНЛИМ<br><span  class="price__title--narrow">9,99 USD</span></th>
+					</tr>
+			    	    		<tr>
+			        				<td class="price__filter price__filter--base">Розовый фильтр</td>
+			        				<td class="price__filter price__filter--standard">Розовый фильтр</td>
+			        				<td class="price__filter price__filter--anlim">Розовый фильтр</td>
+			     	   			</tr>
+			        			<tr>
+			        				<td class="price__emoji price__emoji--base">Смайлики</td>
+			        			<td class="price__emoji price__emoji--standard">Смайлики</td>
+			    	    			<td class="price__emoji price__emoji--anlim">Смайлики</td>
+			        			</tr>
+			        			<tr>
+			        			<td class="price__comment price__comment--base">Комментарии</td>
+			    	    			<td class="price__comment price__comment--standard">Комментарии</td>
+			        				<td class="price__comment price__comment--anlim">Комментарии</td>
+			        			</tr>
+				</table>
+				<p class="price__toggles slider__toggles">
+			        	    	<button class="slider__toggle" type="button">1</button>
+			            		<button class="slider__toggle" type="button">2</button>
+			            		<button class="slider__toggle" type="button">3</button>
+			          		</p>
+			          	</div>
+			          	</div>
+		</section>
+			</main>
+			<footer class="page-footer">
+		<div class="page-footer__wrapper">
+			<div class="page-footer__contacts contacts">
+				<h2 class="visually-hidden">Контакты</h2>
+				<p class="contacts__title">Остались вопросы?<br> Свяжитесь с нами!</p>
+				<ul class="contacts__list">
+					<li class="contacts__item">
+						<h3 class="contacts__title">Звоните:</h3>
+						<a class="contacts__text" href="tel:+78125556666">+7 (812) 555-66-66</a>
+					</li>
+					<li class="contacts__item">
+						<h3 class="contacts__title">Пишите:</h3>
+						<a class="contacts__text" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+					</li>
+					<li class="contacts__item">
+						<h3 class="contacts__title">Приезжайте в гости:</h3>
+						<p class="contacts__text">ул. Большая<br> Конюшенная, 19/8</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="page-footer__map"></div>
+		<div class="page-footer__wrapper">
+			<div class="page-footer__social social">
+				<img src="img/map.png" alt="Логотип" class="social__logo">
+				<ul class="social__list">
+					<li class="social__item">
+			              		<a class="social__link social__link--twitter" href="#">Мы в Твитере</a>
+			            		</li>
+			            		<li class="social__item">
+			              		<a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+			            		</li>
+			            		<li class="social__item">
+			             		 <a class="social__link social__link--youtube" href="#">Мы в Инстаграме</a>
+			            		</li>
+				</ul>
+			</div>
+			<div class="page-footer__copyright copyright">
+			          		<b class="copyright__text">Разработано:</b>
+			          		<a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><img src="img/logo-academy.png" alt="logo-academy"></a>
+			        	</div>
+		</div>
+			</footer> -->
+<script>
+  var navMain = document.querySelector('.main-nav');
+  var navToggle = document.querySelector('.main-nav__toggle');
+
+  navMain.classList.remove('main-nav--nojs');
+
+  navToggle.addEventListener('click', function() {
+    if (navMain.classList.contains('main-nav--closed')) {
+      navMain.classList.remove('main-nav--closed');
+      navMain.classList.add('main-nav--opened');
+    } else {
+      navMain.classList.add('main-nav--closed');
+      navMain.classList.remove('main-nav--opened');
+    }
+  });
+</script>
+</body>
+</html>
